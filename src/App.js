@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 //import HeaderSection from './components/HeaderSection'
-import familyHeroImage from './family-module-hero-image.png';
+import Hero from "./components/hero"
 import iconFamilyImage from './icon-family.png';
 import phoneTrioImage from './family-module-phones-x3.png';
 
@@ -37,12 +36,11 @@ import costBillCareservice from './cost_bill_careservice.png';
 
 import dataSecurePadlock from './data_secure_padlock.png';
 
-// logo.svg
 
 function App() {
   return (
 <div>
-        <div className="flex_container_hero"> 
+        {/* <div className="flex_container_hero"> 
             <div className="lhs_hero">
 
             <div className="first_heading_hero">
@@ -72,7 +70,8 @@ function App() {
                 <img className='familyHeroImage' src={familyHeroImage} alt="heroImage"/>
             </div>
 
-        </div>
+        </div> */}
+        <Hero />
 
         <div className="flex_container_what_is_family_module">     
         
@@ -102,7 +101,7 @@ function App() {
 
         <div className="flex_container_phone_trio">
             <div>
-                <img src={phoneTrioImage} alt="trioPhoneImage"/>
+                <img className="phone_trio_img" src={phoneTrioImage} alt="trioPhoneImage"/>
             </div>
 
         </div> 
