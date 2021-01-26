@@ -122,7 +122,7 @@ function App() {
             <div className="how_family_works_rows">
 
                 <div className="lhs_box">
-                    <div>
+                    <div className="test">
                         <img className='familyNumBox' src={numBoxOne} alt="numberOne"/>
                         <h3 className="header_box">Set up your preferences & invite family members</h3>
                     </div>
